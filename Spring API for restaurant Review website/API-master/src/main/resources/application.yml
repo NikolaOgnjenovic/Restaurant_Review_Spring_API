@@ -1,0 +1,15 @@
+server:
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/recenzije
+    username: root
+    password: mrm1_m!rc!c
+    #url: jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11455383
+    #username: sql11455383
+    #password: vyvJHPdbRy
+
+  jpa:
+    hibernate:
+      ddl-auto: update
